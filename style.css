@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Indie Flower', cursive;
+  font-size: 23px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+  font-size: 27px;
+  color: #FF4E50;
+}
+a {
+  color: #FF4E50;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+
+
+
+.banner{
+  text-align: center;
+  color: white;
+	padding: 110px 30px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://cdn.shopify.com/s/files/1/2633/0978/files/Stars_glitter_large.png?v=1543512636");
+  background-size: cover;
+	background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+
+
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
